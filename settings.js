@@ -18,13 +18,13 @@ module.exports = {
   SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "",
   PREFIX: getConfig("PREFIX") || "." || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
-  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ʟᴜᴄᴋʏ-xᴅ",
+  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ＨＡＳＳＵ ＢＯＴ",
   MODE: getConfig("MODE") || process.env.MODE || "public",
   REPO: process.env.REPO || "https://github.com/Tomilucky218/Lucky-XD2",
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "256789966218",
+  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "15167559026",
   OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ʟᴜᴄᴋʏ ➋➊➑",
   DEV: process.env.DEV || "256789966218",
   DEVELOPER_NUMBER: '256789966218@s.whatsapp.net',
